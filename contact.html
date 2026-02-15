@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="flex-grow-1 justify-content-center">
+   <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <section class="container py-5">
+            <div class="row g-4 g-lg-5 justify-content-center align-items-center">
+                
+                <div class="col-lg-5">
+                    <div class="card rounded-4" style="box-shadow: 6px 6px 0 #6b9c5d; ">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="fw-bold mb-4" style="color: #36612a;">SEND US A MESSAGE</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="name" class="form-control" required placeholder="Name">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" required placeholder="Email">                 
+                                </div>
+                                <div class="mb-4">
+                                     <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="text-center text-lg-start">
+                                    <button type="submit" class="btn btn-custom btn-lg w-100 fw-bold py-3">Submit Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="ps-lg-4">
+                        <h1 class="display-3 fw-bold mb-4" style="color: #6b9c5d; text-shadow: 5px 0 0 #023616;">
+                            LOCATION
+                        </h1>
+                        <div class="map-container shadow-lg rounded-4 overflow-hidden" style="height: 350px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.904527546173!2d121.0598279845165!3d14.316978048228455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d771a8ee1419%3A0x8ba33fccb95a7b40!2sCavite%20State%20University%20-%20Carmona!5e0!3m2!1sen!2sph!4v1770946688933!5m2!1sen!2sph" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center py-3">
+        <p class="mb-0">&copy; MNYD. All Rights Reserved.</p>
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
